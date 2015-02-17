@@ -1,0 +1,264 @@
+[0m[[0minfo[0m] [0m[32mHW1Spec:[0m[0m
+[0m[[0minfo[0m] [0m[32mabs[0m[0m
+[0m[[0minfo[0m] [0m[31m- should evaluate to the absolute value of the argument *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:225)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at main.scala.HW1$.abs(HW1.scala:78)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$1.apply$mcV$sp(HW1Spec.scala:16)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$1.apply(HW1Spec.scala:15)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$1.apply(HW1Spec.scala:15)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[32mswap[0m[0m
+[0m[[0minfo[0m] [0m[32m- should should swap the components of its argument[0m[0m
+[0m[[0minfo[0m] [0m[32mrepeat[0m[0m
+[0m[[0minfo[0m] [0m[31m- should evaluate to repeated concatenation of a string *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:225)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at main.scala.HW1$.repeat(HW1.scala:82)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$3.apply$mcV$sp(HW1Spec.scala:32)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$3.apply(HW1Spec.scala:31)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$3.apply(HW1Spec.scala:31)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[32mrepeat[0m[0m
+[0m[[0minfo[0m] [0m[31m- should evaluate to an empty string when repeated zero times *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:225)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at main.scala.HW1$.repeat(HW1.scala:82)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$4.apply$mcV$sp(HW1Spec.scala:41)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$4.apply(HW1Spec.scala:40)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$4.apply(HW1Spec.scala:40)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[32mrepeat[0m[0m
+[0m[[0minfo[0m] [0m[31m- should throw an exception when a negative number of repetitions is expected *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  Expected exception java.lang.IllegalArgumentException to be thrown, but scala.NotImplementedError was thrown. (HW1Spec.scala:48)[0m[0m
+[0m[[0minfo[0m] [0m[32msqrtStep[0m[0m
+[0m[[0minfo[0m] [0m[31m- should evaluate to one iteration of Newton's method *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:225)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at main.scala.HW1$.sqrtStep(HW1.scala:84)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$6.apply$mcV$sp(HW1Spec.scala:56)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$6.apply(HW1Spec.scala:55)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$6.apply(HW1Spec.scala:55)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[32msqrtN[0m[0m
+[0m[[0minfo[0m] [0m[31m- should perform several iterations of sqrtStep *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:225)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at main.scala.HW1$.sqrtN(HW1.scala:86)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$7.apply$mcV$sp(HW1Spec.scala:62)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$7.apply(HW1Spec.scala:61)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$7.apply(HW1Spec.scala:61)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[32msqrtN[0m[0m
+[0m[[0minfo[0m] [0m[31m- should evaluate to x0 if n is zero *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:225)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at main.scala.HW1$.sqrtN(HW1.scala:86)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$8.apply$mcV$sp(HW1Spec.scala:69)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$8.apply(HW1Spec.scala:68)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$8.apply(HW1Spec.scala:68)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[32msqrtErr[0m[0m
+[0m[[0minfo[0m] [0m[31m- should perform iterations until the error is within epsilon *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:225)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at main.scala.HW1$.sqrtErr(HW1.scala:89)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$9.apply$mcV$sp(HW1Spec.scala:74)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$9.apply(HW1Spec.scala:73)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$9.apply(HW1Spec.scala:73)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[32msqrtN[0m[0m
+[0m[[0minfo[0m] [0m[31m- should throw an exception when n is negative *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  Expected exception java.lang.IllegalArgumentException to be thrown, but scala.NotImplementedError was thrown. (HW1Spec.scala:83)[0m[0m
+[0m[[0minfo[0m] [0m[32msqrtErr[0m[0m
+[0m[[0minfo[0m] [0m[31m- should throw an exception when using a non-positive epsilon *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  Expected exception java.lang.IllegalArgumentException to be thrown, but scala.NotImplementedError was thrown. (HW1Spec.scala:89)[0m[0m
+[0m[[0minfo[0m] [0m[32mrepOk[0m[0m
+[0m[[0minfo[0m] [0m[31m- should ensure that a SearchTree is properly ordered *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:225)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at main.scala.HW1$.check$1(HW1.scala:105)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at main.scala.HW1$.repOk(HW1.scala:107)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$12.apply$mcV$sp(HW1Spec.scala:115)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$12.apply(HW1Spec.scala:113)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$12.apply(HW1Spec.scala:113)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[32minsert[0m[0m
+[0m[[0minfo[0m] [0m[31m- should insert numbers as leaves in SearchTrees at the proper position *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:225)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at main.scala.HW1$.insert(HW1.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$13.apply$mcV$sp(HW1Spec.scala:125)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$13.apply(HW1Spec.scala:124)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$13.apply(HW1Spec.scala:124)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[32mdeleteMin[0m[0m
+[0m[[0minfo[0m] [0m[31m- should remove the smallest value from a tree, and provide the resulting tree *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:225)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at main.scala.HW1$.deleteMin(HW1.scala:118)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$14.apply$mcV$sp(HW1Spec.scala:137)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$14.apply(HW1Spec.scala:133)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$14.apply(HW1Spec.scala:133)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[32mdelete[0m[0m
+[0m[[0minfo[0m] [0m[31m- should remove a given value from a tree, if present *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:225)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at main.scala.HW1$.delete(HW1.scala:122)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$15.apply$mcV$sp(HW1Spec.scala:143)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$15.apply(HW1Spec.scala:142)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$15.apply(HW1Spec.scala:142)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[32minsert[0m[0m
+[0m[[0minfo[0m] [0m[31m- should produce trees that satisfy repOk *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:225)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at main.scala.HW1$.insert(HW1.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$treeFromList$1.apply(HW1Spec.scala:159)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$treeFromList$1.apply(HW1Spec.scala:159)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.LinearSeqOptimized$class.foldLeft(LinearSeqOptimized.scala:124)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.immutable.List.foldLeft(List.scala:84)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.TraversableOnce$class.$div$colon(TraversableOnce.scala:136)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.AbstractTraversable.$div$colon(Traversable.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec.treeFromList(HW1Spec.scala:159)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$16.apply$mcV$sp(HW1Spec.scala:162)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[32minsert-delete[0m[0m
+[0m[[0minfo[0m] [0m[31m- should produce tress that satisfy repOk *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:225)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at main.scala.HW1$.insert(HW1.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$17$$anonfun$23$$anonfun$apply$1.apply(HW1Spec.scala:169)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$17$$anonfun$23$$anonfun$apply$1.apply(HW1Spec.scala:169)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$17$$anonfun$apply$mcV$sp$5.apply(HW1Spec.scala:173)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$17$$anonfun$apply$mcV$sp$5.apply(HW1Spec.scala:172)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.LinearSeqOptimized$class.foldLeft(LinearSeqOptimized.scala:124)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.immutable.List.foldLeft(List.scala:84)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.TraversableOnce$class.$div$colon(TraversableOnce.scala:136)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.AbstractTraversable.$div$colon(Traversable.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[32meval+[0m[0m
+[0m[[0minfo[0m] [0m[31m- should perform addition *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:225)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at main.scala.HW1$.eval(HW1.scala:128)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at main.scala.HW1$.eval(HW1.scala:133)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$18.apply$mcV$sp(HW1Spec.scala:183)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$18.apply(HW1Spec.scala:183)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$18.apply(HW1Spec.scala:183)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[32meval-[0m[0m
+[0m[[0minfo[0m] [0m[31m- should perform subtraction *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:225)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at main.scala.HW1$.eval(HW1.scala:128)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at main.scala.HW1$.eval(HW1.scala:133)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$19.apply$mcV$sp(HW1Spec.scala:187)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$19.apply(HW1Spec.scala:187)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$19.apply(HW1Spec.scala:187)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[32meval*[0m[0m
+[0m[[0minfo[0m] [0m[31m- should perform multiplication *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:225)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at main.scala.HW1$.eval(HW1.scala:128)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at main.scala.HW1$.eval(HW1.scala:133)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$20.apply$mcV$sp(HW1Spec.scala:191)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$20.apply(HW1Spec.scala:191)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$20.apply(HW1Spec.scala:191)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[32meval/[0m[0m
+[0m[[0minfo[0m] [0m[31m- should perform division *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:225)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at main.scala.HW1$.eval(HW1.scala:128)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at main.scala.HW1$.eval(HW1.scala:133)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$21.apply$mcV$sp(HW1Spec.scala:195)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$21.apply(HW1Spec.scala:195)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$21.apply(HW1Spec.scala:195)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[32meval/0[0m[0m
+[0m[[0minfo[0m] [0m[31m- should division by 0 should yield Infinity *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:225)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at main.scala.HW1$.eval(HW1.scala:128)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at main.scala.HW1$.eval(HW1.scala:133)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$22.apply$mcV$sp(HW1Spec.scala:199)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$22.apply(HW1Spec.scala:198)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at HW1Spec$$anonfun$22.apply(HW1Spec.scala:198)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
